@@ -12,6 +12,7 @@ Here are the changes made to the initial sway configuration :
  * Add binds for multimedia buttons
  * Change gaps
  * Natural scrolling
+ * Add shortcuts for screenshots
 
 
 ## Status bar
