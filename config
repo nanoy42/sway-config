@@ -262,7 +262,9 @@ bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 bindsym $mod+XF86AudioRaiseVolume exec pactl set-source-volume @DEFAULT_SOURCE@ +5%
 bindsym $mod+XF86AudioLowerVolume exec pactl set-source-volume @DEFAULT_SOURCE@ -5%
 bindsym Print exec slurp | grim -g -
-
+bindsym XF86Tools exec $menu
+bindsym XF86Favorites exec firefox
+bindsym $mod+XF86Favorites exec code
 
 
 include /etc/sway/config.d/*
